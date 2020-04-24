@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A7DE8B812444BE1D0010B5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */; };
-		A7DE8B832444BE1D0010B5A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8B822444BE1D0010B5A1 /* SceneDelegate.swift */; };
 		A7DE8B852444BE1D0010B5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8B842444BE1D0010B5A1 /* ViewController.swift */; };
 		A7DE8B882444BE1D0010B5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE8B862444BE1D0010B5A1 /* Main.storyboard */; };
 		A7DE8B8A2444BE1E0010B5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DE8B892444BE1E0010B5A1 /* Assets.xcassets */; };
@@ -29,7 +28,6 @@
 /* Begin PBXFileReference section */
 		A7DE8B7D2444BE1D0010B5A1 /* AccountingWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountingWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7DE8B822444BE1D0010B5A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A7DE8B842444BE1D0010B5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7DE8B872444BE1D0010B5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7DE8B892444BE1E0010B5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +56,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7D39E5C24502AA600CDA209 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A7DE8B742444BE1D0010B5A1 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +84,8 @@
 		A7DE8B7F2444BE1D0010B5A1 /* AccountingWater */ = {
 			isa = PBXGroup;
 			children = (
+				A7D39E5C24502AA600CDA209 /* Resources */,
 				A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */,
-				A7DE8B822444BE1D0010B5A1 /* SceneDelegate.swift */,
 				A7DE8B842444BE1D0010B5A1 /* ViewController.swift */,
 				A7DE8B862444BE1D0010B5A1 /* Main.storyboard */,
 				A7DE8B892444BE1E0010B5A1 /* Assets.xcassets */,
@@ -202,7 +207,6 @@
 			files = (
 				A7DE8B852444BE1D0010B5A1 /* ViewController.swift in Sources */,
 				A7DE8B812444BE1D0010B5A1 /* AppDelegate.swift in Sources */,
-				A7DE8B832444BE1D0010B5A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKH5LRXZSC;
 				INFOPLIST_FILE = AccountingWater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YKH5LRXZSC;
 				INFOPLIST_FILE = AccountingWater/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
