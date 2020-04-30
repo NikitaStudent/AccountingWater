@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A740DCF12456348500CA1202 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A740DCF02456348500CA1202 /* Images.xcassets */; };
+		A751CB822459B02700E272D7 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A751CB802459B02700E272D7 /* AddViewController.swift */; };
+		A751CB832459B02700E272D7 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A751CB812459B02700E272D7 /* AddViewController.xib */; };
+		A7C6B70D24595C2B00985A68 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C6B70B24595C2B00985A68 /* MainViewController.swift */; };
+		A7C6B70E24595C2B00985A68 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C6B70C24595C2B00985A68 /* MainViewController.xib */; };
 		A7DE8B812444BE1D0010B5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */; };
 		A7DE8B852444BE1D0010B5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8B842444BE1D0010B5A1 /* ViewController.swift */; };
 		A7DE8B882444BE1D0010B5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE8B862444BE1D0010B5A1 /* Main.storyboard */; };
-		A7DE8B8A2444BE1E0010B5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DE8B892444BE1E0010B5A1 /* Assets.xcassets */; };
 		A7DE8B8D2444BE1E0010B5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE8B8B2444BE1E0010B5A1 /* LaunchScreen.storyboard */; };
 		A7DE8B982444BE1F0010B5A1 /* AccountingWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8B972444BE1F0010B5A1 /* AccountingWaterTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,11 +30,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A740DCF02456348500CA1202 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A751CB802459B02700E272D7 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A751CB812459B02700E272D7 /* AddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
+		A7C6B70B24595C2B00985A68 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A7C6B70C24595C2B00985A68 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		A7DE8B7D2444BE1D0010B5A1 /* AccountingWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountingWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7DE8B842444BE1D0010B5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7DE8B872444BE1D0010B5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7DE8B892444BE1E0010B5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7DE8B8C2444BE1E0010B5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7DE8B8E2444BE1E0010B5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7DE8B932444BE1F0010B5A1 /* AccountingWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccountingWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,11 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7D39E5C24502AA600CDA209 /* Resources */ = {
+		A751CB7F2459AFFC00E272D7 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
+				A7C6B70B24595C2B00985A68 /* MainViewController.swift */,
+				A7C6B70C24595C2B00985A68 /* MainViewController.xib */,
+				A751CB802459B02700E272D7 /* AddViewController.swift */,
+				A751CB812459B02700E272D7 /* AddViewController.xib */,
 			);
-			path = Resources;
+			path = Xib;
 			sourceTree = "<group>";
 		};
 		A7DE8B742444BE1D0010B5A1 = {
@@ -84,13 +96,13 @@
 		A7DE8B7F2444BE1D0010B5A1 /* AccountingWater */ = {
 			isa = PBXGroup;
 			children = (
-				A7D39E5C24502AA600CDA209 /* Resources */,
+				A751CB7F2459AFFC00E272D7 /* Xib */,
 				A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */,
 				A7DE8B842444BE1D0010B5A1 /* ViewController.swift */,
 				A7DE8B862444BE1D0010B5A1 /* Main.storyboard */,
-				A7DE8B892444BE1E0010B5A1 /* Assets.xcassets */,
 				A7DE8B8B2444BE1E0010B5A1 /* LaunchScreen.storyboard */,
 				A7DE8B8E2444BE1E0010B5A1 /* Info.plist */,
+				A740DCF02456348500CA1202 /* Images.xcassets */,
 			);
 			path = AccountingWater;
 			sourceTree = "<group>";
@@ -186,8 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7DE8B8D2444BE1E0010B5A1 /* LaunchScreen.storyboard in Resources */,
-				A7DE8B8A2444BE1E0010B5A1 /* Assets.xcassets in Resources */,
+				A740DCF12456348500CA1202 /* Images.xcassets in Resources */,
+				A751CB832459B02700E272D7 /* AddViewController.xib in Resources */,
 				A7DE8B882444BE1D0010B5A1 /* Main.storyboard in Resources */,
+				A7C6B70E24595C2B00985A68 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C6B70D24595C2B00985A68 /* MainViewController.swift in Sources */,
 				A7DE8B852444BE1D0010B5A1 /* ViewController.swift in Sources */,
+				A751CB822459B02700E272D7 /* AddViewController.swift in Sources */,
 				A7DE8B812444BE1D0010B5A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="AccountingWater" customModuleProvider="target">
+            <connections>
+                <outlet property="ProgressView" destination="h63-jL-jej" id="5Bg-fy-JOq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="StT-Ui-mhc">
+            <view key="view" contentMode="scaleToFill" id="rhP-MM-Gbg">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUQ-Wv-aF4">
+                        <rect key="frame" x="57" y="298" width="300" height="300"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RmV-j3-rVy">
+                                <rect key="frame" x="0.0" y="0.0" width="98" height="98"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Cl-Y1-yDA">
+                                        <rect key="frame" x="26" y="34" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="D7l-BP-6vH"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="1Rg-6R-HXb"/>
+                                    <constraint firstItem="4Cl-Y1-yDA" firstAttribute="centerX" secondItem="RmV-j3-rVy" secondAttribute="centerX" id="AXx-C7-8R8"/>
+                                    <constraint firstAttribute="height" constant="98" id="NRf-HX-iGJ"/>
+                                    <constraint firstItem="4Cl-Y1-yDA" firstAttribute="centerY" secondItem="RmV-j3-rVy" secondAttribute="centerY" id="aYn-JI-tDu"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wVf-pD-8Jt">
+                                <rect key="frame" x="101" y="0.0" width="98" height="98"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="Fbk-TG-C3U"/>
+                                    <constraint firstAttribute="height" constant="98" id="ezu-aT-SrS"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7mF-LE-KFb">
+                                <rect key="frame" x="202" y="0.0" width="98" height="98"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="2KJ-5I-9Tf"/>
+                                    <constraint firstAttribute="width" constant="98" id="7XT-bd-kS0"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Frh-Q9-AYp">
+                                <rect key="frame" x="0.0" y="101" width="98" height="98"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="KAK-wZ-Hq3"/>
+                                    <constraint firstAttribute="width" constant="98" id="tuM-fp-Wwc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="voU-cP-CM3">
+                                <rect key="frame" x="101" y="101" width="98" height="98"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="2U1-Pv-J3w"/>
+                                    <constraint firstAttribute="height" constant="98" id="DOl-Aw-AyY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWg-OJ-Npe">
+                                <rect key="frame" x="202" y="101" width="98" height="98"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="g5g-ka-afs"/>
+                                    <constraint firstAttribute="height" constant="98" id="oGG-79-F8O"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKH-uW-GaL">
+                                <rect key="frame" x="202" y="202" width="98" height="98"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="7IY-Tq-DG7"/>
+                                    <constraint firstAttribute="height" constant="98" id="GB6-ej-FCP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KbP-if-qaL">
+                                <rect key="frame" x="101" y="202" width="98" height="98"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="QTu-Bw-rci"/>
+                                    <constraint firstAttribute="width" constant="98" id="nHi-ep-A0e"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="krx-Wb-ktU">
+                                <rect key="frame" x="0.0" y="202" width="98" height="98"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="b0h-s5-cPD"/>
+                                    <constraint firstAttribute="width" constant="98" id="ikq-ui-JIM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71174266157100563" green="0.79203146741016872" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7mF-LE-KFb" firstAttribute="leading" secondItem="wVf-pD-8Jt" secondAttribute="trailing" constant="3" id="AfZ-eC-pNn"/>
+                            <constraint firstItem="KbP-if-qaL" firstAttribute="leading" secondItem="krx-Wb-ktU" secondAttribute="trailing" constant="3" id="GZg-kD-acW"/>
+                            <constraint firstItem="RmV-j3-rVy" firstAttribute="top" secondItem="cUQ-Wv-aF4" secondAttribute="top" id="H9S-rG-lGg"/>
+                            <constraint firstItem="voU-cP-CM3" firstAttribute="top" secondItem="wVf-pD-8Jt" secondAttribute="bottom" constant="3" id="Hcx-1q-rbj"/>
+                            <constraint firstItem="TKH-uW-GaL" firstAttribute="top" secondItem="Frh-Q9-AYp" secondAttribute="bottom" constant="3" id="JVY-B4-VHd"/>
+                            <constraint firstItem="krx-Wb-ktU" firstAttribute="top" secondItem="Frh-Q9-AYp" secondAttribute="bottom" constant="3" id="M8W-5L-kGi"/>
+                            <constraint firstAttribute="trailing" secondItem="EWg-OJ-Npe" secondAttribute="trailing" id="QkD-hd-Q1e"/>
+                            <constraint firstItem="EWg-OJ-Npe" firstAttribute="leading" secondItem="voU-cP-CM3" secondAttribute="trailing" constant="3" id="SK8-42-6Qp"/>
+                            <constraint firstAttribute="height" constant="300" id="Yda-jM-ml9"/>
+                            <constraint firstItem="Frh-Q9-AYp" firstAttribute="top" secondItem="RmV-j3-rVy" secondAttribute="bottom" constant="3" id="bCA-2J-ZKH"/>
+                            <constraint firstItem="7mF-LE-KFb" firstAttribute="top" secondItem="cUQ-Wv-aF4" secondAttribute="top" id="bUM-80-v27"/>
+                            <constraint firstItem="KbP-if-qaL" firstAttribute="top" secondItem="Frh-Q9-AYp" secondAttribute="bottom" constant="3" id="cNZ-72-ceD"/>
+                            <constraint firstItem="krx-Wb-ktU" firstAttribute="leading" secondItem="cUQ-Wv-aF4" secondAttribute="leading" id="hsM-bt-Ac9"/>
+                            <constraint firstAttribute="width" constant="300" id="jbw-G0-xIV"/>
+                            <constraint firstItem="wVf-pD-8Jt" firstAttribute="top" secondItem="cUQ-Wv-aF4" secondAttribute="top" id="nbZ-D5-MDM"/>
+                            <constraint firstItem="TKH-uW-GaL" firstAttribute="leading" secondItem="KbP-if-qaL" secondAttribute="trailing" constant="3" id="oYt-5s-bKN"/>
+                            <constraint firstItem="wVf-pD-8Jt" firstAttribute="leading" secondItem="RmV-j3-rVy" secondAttribute="trailing" constant="3" id="qHK-0q-8Bm"/>
+                            <constraint firstItem="EWg-OJ-Npe" firstAttribute="top" secondItem="7mF-LE-KFb" secondAttribute="bottom" constant="3" id="qoL-Rf-lnw"/>
+                            <constraint firstAttribute="trailing" secondItem="7mF-LE-KFb" secondAttribute="trailing" id="r3z-xu-cmU"/>
+                            <constraint firstAttribute="trailing" secondItem="TKH-uW-GaL" secondAttribute="trailing" id="uvZ-BD-5Hy"/>
+                            <constraint firstItem="Frh-Q9-AYp" firstAttribute="leading" secondItem="cUQ-Wv-aF4" secondAttribute="leading" id="vOD-BY-0Wk"/>
+                            <constraint firstItem="RmV-j3-rVy" firstAttribute="leading" secondItem="cUQ-Wv-aF4" secondAttribute="leading" id="wsb-7E-hV5"/>
+                            <constraint firstItem="voU-cP-CM3" firstAttribute="leading" secondItem="Frh-Q9-AYp" secondAttribute="trailing" constant="3" id="yds-WD-Dte"/>
+                        </constraints>
+                    </view>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="h63-jL-jej">
+                        <rect key="frame" x="120" y="226" width="174" height="2"/>
+                        <color key="backgroundColor" red="0.0" green="0.4793452024" blue="0.99908632040000001" alpha="0.28967786815068491" colorSpace="custom" customColorSpace="sRGB"/>
+                    </progressView>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                <constraints>
+                    <constraint firstItem="cUQ-Wv-aF4" firstAttribute="top" secondItem="h63-jL-jej" secondAttribute="bottom" constant="70" id="Bq0-Xr-hof"/>
+                    <constraint firstItem="cUQ-Wv-aF4" firstAttribute="centerY" secondItem="rhP-MM-Gbg" secondAttribute="centerY" id="Tbq-gz-06E"/>
+                    <constraint firstItem="cUQ-Wv-aF4" firstAttribute="centerX" secondItem="rhP-MM-Gbg" secondAttribute="centerX" id="UJV-kY-cQP"/>
+                    <constraint firstItem="h63-jL-jej" firstAttribute="leading" secondItem="rhP-MM-Gbg" secondAttribute="leadingMargin" constant="100" id="hwU-26-uMq"/>
+                    <constraint firstItem="h63-jL-jej" firstAttribute="centerX" secondItem="rhP-MM-Gbg" secondAttribute="centerX" id="kB0-dn-keu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="h63-jL-jej" secondAttribute="trailing" constant="100" id="lIf-SK-yt9"/>
+                </constraints>
+                <viewLayoutGuide key="safeArea" id="GPZ-21-H2o"/>
+            </view>
+            <point key="canvasLocation" x="373.91304347826087" y="13.392857142857142"/>
+        </viewController>
+    </objects>
+</document>

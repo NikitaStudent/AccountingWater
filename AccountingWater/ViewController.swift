@@ -8,20 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIGestureRecognizerDelegate {
 
+    @IBOutlet weak var Tap: UITapGestureRecognizer!
     
+let progress = Progress(totalUnitCount: 2000)
+    
+    @IBOutlet weak var ProgressView: UIProgressView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
-      
-    }
 
-    @IBAction func AddButton(_ sender: Any) {
-        
+
     }
-    
+   
+    @IBOutlet weak var FirstView: UIView!
     
 }
 
