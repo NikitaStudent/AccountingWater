@@ -23,18 +23,22 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yb-EH-Q3y">
-                    <rect key="frame" x="184" y="539" width="46" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2yb-EH-Q3y">
+                    <rect key="frame" x="190" y="540" width="34" height="30"/>
+                    <state key="normal" title="Save"/>
+                    <connections>
+                        <action selector="SaveButton:" destination="-1" eventType="touchUpInside" id="r3u-mb-8B4"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
             <constraints>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xzX-23-mcF" secondAttribute="trailing" constant="100" id="QsP-Un-II9"/>
+                <constraint firstItem="2yb-EH-Q3y" firstAttribute="top" secondItem="xzX-23-mcF" secondAttribute="bottom" constant="75" id="b7K-ad-CKM"/>
                 <constraint firstItem="xzX-23-mcF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gN2-Gf-KR4"/>
                 <constraint firstItem="xzX-23-mcF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="opE-c1-4wY"/>
                 <constraint firstItem="xzX-23-mcF" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="uBe-t7-38c"/>
+                <constraint firstItem="2yb-EH-Q3y" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="xHu-ij-5dp"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>

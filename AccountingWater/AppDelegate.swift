@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let rootViewController = MainViewController()
        let navigationController = UINavigationController(rootViewController: rootViewController)
-        
+    
         window?.rootViewController = navigationController
         
         return true

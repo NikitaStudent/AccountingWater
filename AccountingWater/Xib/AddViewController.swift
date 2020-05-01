@@ -15,9 +15,8 @@ class AddViewController: ViewController {
         title = "Daily norm"
     }
 
-
-    @IBAction func CloseButton(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+    @IBAction func SaveButton(_ sender: Any) {
+        
     }
     
 }

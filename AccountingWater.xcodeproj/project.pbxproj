@@ -67,9 +67,9 @@
 		A751CB7F2459AFFC00E272D7 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				A751CB802459B02700E272D7 /* AddViewController.swift */,
-				A745C346245C471A00C788B7 /* MainViewController.xib */,
 				A745C345245C471A00C788B7 /* MainViewController.swift */,
+				A745C346245C471A00C788B7 /* MainViewController.xib */,
+				A751CB802459B02700E272D7 /* AddViewController.swift */,
 				A751CB812459B02700E272D7 /* AddViewController.xib */,
 			);
 			path = Xib;
