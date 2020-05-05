@@ -11,17 +11,23 @@ import UIKit
 
 class MainViewController: ViewController, AddScreenDelegate {
     @IBOutlet weak var FinishLabel: UILabel!
+    @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var ViewForButton: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Main"
+        
+        
         // MAKE : Progress View
-        progressView.transform = progressView.transform.scaledBy(x: 1, y: 3)
+    progressView.transform = progressView.transform.scaledBy(x: 1, y: 3)
         progressView.layer.cornerRadius = 9
         progressView.clipsToBounds = true
-        
+        //self.ViewForProgress.backgroundColor = UIColor(red: 174.0/255.0, green: 255.0/255.0, blue: 179.0/255.0, alpha: 1.0)
         // MAKE: Navigation Controll
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Daily norm", style: .plain, target: self, action: #selector(nextButton))
-        title = "Main"
+    navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Daily norm", style: .plain, target: self, action: #selector(nextButton))
+        ViewForButton.layer.cornerRadius = 10
     }
     
     func addScreenFinished(data: String) {
@@ -40,38 +46,9 @@ class MainViewController: ViewController, AddScreenDelegate {
         let CustomView = CustomViewController()
         navigationController?.pushViewController(CustomView, animated: true)
     }
-    @IBOutlet weak var progressView: UIProgressView!
+
     
-    @IBAction func CoffeeButton(_ sender: Any) {
-        self.progressView.progress += +0.05
-    }
-    @IBAction func AquaButton(_ sender: Any) {
-        self.progressView.progress += +0.1
-    }
-    @IBAction func JuiceButton(_ sender: Any) {
-        self.progressView.progress += +0.2
-    }
-    @IBAction func ColaButton(_ sender: Any) {
-        self.progressView.progress += +0.2
-    }
-    @IBAction func MilkButton(_ sender: Any) {
-        self.progressView.progress += +0.05
-    }
-    @IBAction func TeaButton(_ sender: Any) {
-        self.progressView.progress += +0.15
-    }
-    @IBAction func YogurtButton(_ sender: Any) {
-        self.progressView.progress += +0.25
-    }
-    @IBAction func WineButton(_ sender: Any) {
-        self.progressView.progress += +0.025
-    }
-    @IBAction func CoctailButton(_ sender: Any) {
-        //self.progressView.progress += +0.2
-       
-    }
-    
-    
+    //self.progressView.progress += +0.2
     
     
     

@@ -29,6 +29,7 @@ class FinishViewController: ViewController {
                 let data = FinishTextField.text
                 delegate?.addScreenFinished(data: data!)
             dismiss(animated: true, completion: nil)
+
             }
         }
     }

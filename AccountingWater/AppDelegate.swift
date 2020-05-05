@@ -20,8 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let rootViewController = MainViewController()
        let navigationController = UINavigationController(rootViewController: rootViewController)
-    
+        UINavigationBar.appearance().barTintColor = UIColor(red: 174.0/255.0, green: 255.0/255.0, blue: 179.0/255.0, alpha: 1.0)
+       // UINavigationBar.appearance().shadowImage = UIImage()
         window?.rootViewController = navigationController
+    
         
         return true
     }
