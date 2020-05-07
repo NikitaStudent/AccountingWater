@@ -62,6 +62,12 @@
                                         <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="f1V-DP-aMq"/>
                                     </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXh-JT-WFD">
+                                    <rect key="frame" x="27.333333333333332" y="77" width="43.333333333333343" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.9317476455479452" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -69,6 +75,8 @@
                                 <constraint firstItem="tKG-k8-qFv" firstAttribute="centerX" secondItem="s9K-rM-zmF" secondAttribute="centerX" id="D0b-YF-kk7"/>
                                 <constraint firstItem="VP1-6D-IhO" firstAttribute="centerX" secondItem="s9K-rM-zmF" secondAttribute="centerX" id="T4s-e0-feo"/>
                                 <constraint firstAttribute="height" constant="98" id="VXf-aa-d8X"/>
+                                <constraint firstItem="YXh-JT-WFD" firstAttribute="centerX" secondItem="s9K-rM-zmF" secondAttribute="centerX" id="cwq-zf-KSU"/>
+                                <constraint firstAttribute="bottom" secondItem="YXh-JT-WFD" secondAttribute="bottom" id="oUm-KC-gBx"/>
                                 <constraint firstItem="tKG-k8-qFv" firstAttribute="top" secondItem="s9K-rM-zmF" secondAttribute="top" constant="2" id="oX8-FF-ZKl"/>
                                 <constraint firstItem="VP1-6D-IhO" firstAttribute="centerY" secondItem="s9K-rM-zmF" secondAttribute="centerY" id="vzY-fA-sei"/>
                             </constraints>
@@ -89,16 +97,27 @@
                                         <constraint firstAttribute="height" constant="55" id="euR-oN-uWq"/>
                                     </constraints>
                                     <state key="normal" title="Button" image="Cola"/>
+                                    <connections>
+                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="7jZ-zk-roD"/>
+                                    </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhd-tJ-XJr">
+                                    <rect key="frame" x="22" y="77" width="54" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
+                                <constraint firstItem="Jhd-tJ-XJr" firstAttribute="centerX" secondItem="qX1-Y2-4I7" secondAttribute="centerX" id="5YB-4e-K2W"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="CfM-Dp-5Zr"/>
                                 <constraint firstItem="yjE-ju-lzK" firstAttribute="centerX" secondItem="qX1-Y2-4I7" secondAttribute="centerX" id="Eg5-ID-eZS"/>
                                 <constraint firstItem="yjE-ju-lzK" firstAttribute="centerY" secondItem="qX1-Y2-4I7" secondAttribute="centerY" id="Xl3-yj-jJU"/>
                                 <constraint firstItem="7ck-O5-mtw" firstAttribute="top" secondItem="qX1-Y2-4I7" secondAttribute="top" constant="2" id="agv-xx-HNq"/>
                                 <constraint firstAttribute="height" constant="98" id="efm-3p-NPF"/>
                                 <constraint firstItem="7ck-O5-mtw" firstAttribute="centerX" secondItem="qX1-Y2-4I7" secondAttribute="centerX" id="ghN-hr-2My"/>
+                                <constraint firstAttribute="bottom" secondItem="Jhd-tJ-XJr" secondAttribute="bottom" id="rkm-Hn-dzE"/>
                                 <constraint firstAttribute="width" constant="98" id="si6-gt-F3z"/>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="zda-QJ-cSW"/>
                             </constraints>
@@ -119,17 +138,28 @@
                                         <constraint firstAttribute="width" constant="55" id="opZ-jJ-X1z"/>
                                     </constraints>
                                     <state key="normal" title="Button" image="Coctail"/>
+                                    <connections>
+                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="5WP-ft-9Le"/>
+                                    </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZs-Ks-T77">
+                                    <rect key="frame" x="22.333333333333318" y="77" width="53.333333333333343" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="98" id="2zD-Fc-kHk"/>
+                                <constraint firstAttribute="bottom" secondItem="JZs-Ks-T77" secondAttribute="bottom" id="Bd7-hR-BAh"/>
                                 <constraint firstItem="Epe-yi-whj" firstAttribute="centerY" secondItem="lST-k4-qxN" secondAttribute="centerY" id="K3k-W3-SOL"/>
                                 <constraint firstItem="ypM-1B-mjf" firstAttribute="top" secondItem="lST-k4-qxN" secondAttribute="top" constant="2" id="UJs-64-Lcc"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="iKd-Sq-RS0"/>
                                 <constraint firstItem="ypM-1B-mjf" firstAttribute="centerX" secondItem="lST-k4-qxN" secondAttribute="centerX" id="nqZ-15-BOj"/>
                                 <constraint firstItem="Epe-yi-whj" firstAttribute="centerX" secondItem="lST-k4-qxN" secondAttribute="centerX" id="p0I-NH-Sv0"/>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="r6S-kn-ksD"/>
+                                <constraint firstItem="JZs-Ks-T77" firstAttribute="centerX" secondItem="lST-k4-qxN" secondAttribute="centerX" id="w7l-kZ-HQS"/>
                                 <constraint firstAttribute="width" constant="98" id="zrA-dW-4uD"/>
                             </constraints>
                         </view>
@@ -149,11 +179,22 @@
                                         <constraint firstAttribute="width" constant="55" id="hFb-wU-ju3"/>
                                     </constraints>
                                     <state key="normal" title="Button" image="Juice"/>
+                                    <connections>
+                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="dTW-hO-GbE"/>
+                                    </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3KD-QE-M2h">
+                                    <rect key="frame" x="22.333333333333332" y="77" width="53.333333333333343" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="9YJ-Nf-teS"/>
+                                <constraint firstItem="3KD-QE-M2h" firstAttribute="centerX" secondItem="2Th-yI-qtC" secondAttribute="centerX" id="G63-uZ-YYT"/>
+                                <constraint firstAttribute="bottom" secondItem="3KD-QE-M2h" secondAttribute="bottom" id="NKF-27-eEs"/>
                                 <constraint firstItem="8Qg-zM-r68" firstAttribute="centerY" secondItem="2Th-yI-qtC" secondAttribute="centerY" id="UVv-xk-vy8"/>
                                 <constraint firstAttribute="height" constant="98" id="VB0-9T-HLS"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="Z7y-Rk-2QB"/>
@@ -179,13 +220,24 @@
                                         <constraint firstAttribute="height" constant="55" id="hXO-wm-uCJ"/>
                                     </constraints>
                                     <state key="normal" title="Button" image="Tea"/>
+                                    <connections>
+                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="JC5-Hj-EHK"/>
+                                    </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYi-Yc-LUJ">
+                                    <rect key="frame" x="23.666666666666657" y="77" width="51" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="98" id="1vI-B7-AZT"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="36Y-g6-Kad"/>
+                                <constraint firstItem="iYi-Yc-LUJ" firstAttribute="centerX" secondItem="a34-0F-Ges" secondAttribute="centerX" id="GBW-to-mrV"/>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="aBV-Yo-9CS"/>
+                                <constraint firstAttribute="bottom" secondItem="iYi-Yc-LUJ" secondAttribute="bottom" id="bBw-rf-g8h"/>
                                 <constraint firstAttribute="width" constant="98" id="dD7-bx-d2n"/>
                                 <constraint firstItem="pq2-BK-MR8" firstAttribute="centerX" secondItem="a34-0F-Ges" secondAttribute="centerX" id="eNE-x3-pjn"/>
                                 <constraint firstItem="pq2-BK-MR8" firstAttribute="centerY" secondItem="a34-0F-Ges" secondAttribute="centerY" id="jcl-UK-VY3"/>
@@ -209,7 +261,16 @@
                                         <constraint firstAttribute="height" constant="55" id="bAO-Ya-TVY"/>
                                     </constraints>
                                     <state key="normal" title="Button" image="Wine"/>
+                                    <connections>
+                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="ZOk-Mx-rK1"/>
+                                    </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5p-x0-hBC">
+                                    <rect key="frame" x="27.666666666666686" y="77" width="43" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -217,8 +278,10 @@
                                 <constraint firstAttribute="height" constant="98" id="KkU-cZ-xeu"/>
                                 <constraint firstAttribute="width" constant="98" id="Qxg-Uh-vek"/>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="Ttp-qr-iCm"/>
+                                <constraint firstAttribute="bottom" secondItem="x5p-x0-hBC" secondAttribute="bottom" id="Vrh-jR-Hkh"/>
                                 <constraint firstItem="Q9c-8Q-Q8W" firstAttribute="centerX" secondItem="nqH-ql-qfk" secondAttribute="centerX" id="j69-Lm-DNK"/>
                                 <constraint firstItem="Glu-lE-fC9" firstAttribute="centerY" secondItem="nqH-ql-qfk" secondAttribute="centerY" id="n3M-4H-S1g"/>
+                                <constraint firstItem="x5p-x0-hBC" firstAttribute="centerX" secondItem="nqH-ql-qfk" secondAttribute="centerX" id="nsU-Rv-uAM"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="rnz-nu-6GM"/>
                                 <constraint firstItem="Q9c-8Q-Q8W" firstAttribute="top" secondItem="nqH-ql-qfk" secondAttribute="top" constant="2" id="wbm-Mg-GOn"/>
                             </constraints>
@@ -239,17 +302,28 @@
                                         <constraint firstAttribute="height" constant="55" id="PAv-Lm-aGK"/>
                                     </constraints>
                                     <state key="normal" title="Button" image="Water"/>
+                                    <connections>
+                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="g2C-Yi-hIU"/>
+                                    </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1E9-oR-9hU">
+                                    <rect key="frame" x="23.666666666666671" y="77" width="51" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="98" id="8lx-9d-PwR"/>
+                                <constraint firstItem="1E9-oR-9hU" firstAttribute="centerX" secondItem="lN7-IO-fEe" secondAttribute="centerX" id="CBm-0p-Pcj"/>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="SbY-39-isC"/>
                                 <constraint firstItem="JgV-Zd-5ct" firstAttribute="centerX" secondItem="lN7-IO-fEe" secondAttribute="centerX" id="V9e-rf-9KP"/>
                                 <constraint firstItem="JgV-Zd-5ct" firstAttribute="centerY" secondItem="lN7-IO-fEe" secondAttribute="centerY" id="Zy1-R0-47y"/>
                                 <constraint firstItem="KZg-0V-1GW" firstAttribute="centerX" secondItem="lN7-IO-fEe" secondAttribute="centerX" id="aZf-Nb-Pmx"/>
                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="98" id="bYb-lh-Osu"/>
                                 <constraint firstAttribute="height" constant="98" id="d8c-N4-QLM"/>
+                                <constraint firstAttribute="bottom" secondItem="1E9-oR-9hU" secondAttribute="bottom" id="eCu-mX-ZFB"/>
                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="98" id="gCD-ky-I9B"/>
                                 <constraint firstItem="KZg-0V-1GW" firstAttribute="top" secondItem="lN7-IO-fEe" secondAttribute="top" constant="2" id="jdr-yv-0Nf"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="m5R-j5-fxw"/>
@@ -271,13 +345,24 @@
                                         <constraint firstAttribute="width" constant="55" id="czD-1w-su3"/>
                                     </constraints>
                                     <state key="normal" title="Button" image="Yogurt"/>
+                                    <connections>
+                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="21r-Wc-pGb"/>
+                                    </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="250 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpa-uK-wXw">
+                                    <rect key="frame" x="22.333333333333346" y="77" width="53.333333333333343" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="98" id="6XN-le-Ocd"/>
+                                <constraint firstAttribute="bottom" secondItem="Lpa-uK-wXw" secondAttribute="bottom" id="7fU-sE-QvD"/>
                                 <constraint firstItem="h6C-Ex-cnE" firstAttribute="top" secondItem="Hxz-5c-GKe" secondAttribute="top" constant="2" id="7tL-z9-N7O"/>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="9cJ-Ix-taa"/>
+                                <constraint firstItem="Lpa-uK-wXw" firstAttribute="centerX" secondItem="Hxz-5c-GKe" secondAttribute="centerX" id="GF5-Ir-KPj"/>
                                 <constraint firstItem="jAb-Cq-xY2" firstAttribute="centerX" secondItem="Hxz-5c-GKe" secondAttribute="centerX" id="Z1M-TT-kOf"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="Zwj-41-c9M"/>
                                 <constraint firstItem="h6C-Ex-cnE" firstAttribute="centerX" secondItem="Hxz-5c-GKe" secondAttribute="centerX" id="cD1-VW-dUI"/>
@@ -303,17 +388,28 @@
                                         <constraint firstAttribute="height" constant="55" id="Wpl-WV-enG"/>
                                     </constraints>
                                     <state key="normal" title="Button" image="Milk"/>
+                                    <connections>
+                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="g6J-Fs-MgE"/>
+                                    </connections>
                                 </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdP-o9-k9o">
+                                    <rect key="frame" x="27.333333333333318" y="77" width="43.333333333333343" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="0.93000000000000005" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="98" id="1EF-Ch-PtI"/>
                                 <constraint firstItem="gnz-OR-j4k" firstAttribute="centerX" secondItem="rvu-RA-AQP" secondAttribute="centerX" id="7D9-Hg-QWS"/>
                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="98" id="B7K-iM-nte"/>
+                                <constraint firstAttribute="bottom" secondItem="SdP-o9-k9o" secondAttribute="bottom" id="dwR-kO-zFz"/>
                                 <constraint firstItem="CGc-fQ-ftS" firstAttribute="centerX" secondItem="rvu-RA-AQP" secondAttribute="centerX" id="otI-g3-EA8"/>
                                 <constraint firstAttribute="height" relation="lessThanOrEqual" constant="98" id="rkF-0e-1hF"/>
                                 <constraint firstAttribute="width" constant="98" id="s9f-Qa-JsB"/>
                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="98" id="sWi-cj-Iln"/>
+                                <constraint firstItem="SdP-o9-k9o" firstAttribute="centerX" secondItem="rvu-RA-AQP" secondAttribute="centerX" id="uJ1-hw-nkt"/>
                                 <constraint firstItem="CGc-fQ-ftS" firstAttribute="top" secondItem="rvu-RA-AQP" secondAttribute="top" constant="2" id="vF4-hl-Wek"/>
                                 <constraint firstAttribute="height" constant="98" id="zch-95-Gdz"/>
                                 <constraint firstItem="gnz-OR-j4k" firstAttribute="centerY" secondItem="rvu-RA-AQP" secondAttribute="centerY" id="zna-0V-hnb"/>

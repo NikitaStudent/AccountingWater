@@ -14,12 +14,13 @@ class MainViewController: ViewController, AddScreenDelegate {
     @IBOutlet weak var progressView: UIProgressView!
     @IBOutlet weak var ViewForButton: UIView!
     @IBOutlet weak var StartLabel: UILabel!
-    let max = Global.Finish
+    var max = Global.Finish
+    let userQueue = DispatchQueue.global(qos: .unspecified)
+    let background = DispatchQueue.global(qos: .background)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Main"
-        
         
         // MAKE :Settings Progress View
         progressView.transform = progressView.transform.scaledBy(x: 1, y: 3)
@@ -27,6 +28,7 @@ class MainViewController: ViewController, AddScreenDelegate {
         progressView.clipsToBounds = true
         
         // MAKE: Navigation Controll
+        
     navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Daily norm", style: .plain, target: self, action: #selector(nextButton))
     }
     override func didReceiveMemoryWarning() {
@@ -39,8 +41,8 @@ class MainViewController: ViewController, AddScreenDelegate {
          AddFinish.delegate = self
     }
     
-    func addScreenFinished(data: String) {
-        FinishLabel.text = data
+    func addScreenFinished(data: Int) {
+        FinishLabel.text = "\(data)" as String
     }
     
     @IBAction func AddButton(_ sender: Any) {
@@ -48,16 +50,40 @@ class MainViewController: ViewController, AddScreenDelegate {
         navigationController?.pushViewController(CustomView, animated: true)
     }
     //self.progressView.progress += +0.2
-    @IBAction func CoffeeButton(_ sender: AnyObject) {
-        let i = Global.Start
-        if i <= max {
+    @IBAction func CoffeeButton(_ sender: UIButton) {
+        //let i = Global.Start
+        if Global.Start <= Global.Finish {
             // Compute ratio of 0 to 1 for progress.
-            let ratio = Float(i) / Float(max)
+            let ratio = Float(Global.Start) / Float(Global.Finish)
             progressView.progress = Float(ratio)
-            StartLabel.text = "\(i)"
-            FinishLabel.text = "\(max)"
-            Global.Start+=200
+            StartLabel.text = "\(Global.Start) ml"
+            FinishLabel.text = "\(Global.Finish) ml"
+           // Global.Start+=200
+            switch sender.tag {
+            case 1:
+                Global.Start+=50
+                
+            case 2:
+                Global.Start+=200
+            case 3:
+                Global.Start+=200
+            case 4:
+                    Global.Start+=200
+            case 5:
+                    Global.Start+=150
+            case 6:
+                    Global.Start+=25
+            case 7:
+                    Global.Start+=100
+            case 8:
+                    Global.Start+=250
+            case 9:
+                    Global.Start+=50
+            
+            default:
+                print("hello")
+            }
         }
     }
-
 }
+

@@ -9,13 +9,13 @@
 import UIKit
 
 protocol AddScreenDelegate: class {
-    func addScreenFinished(data:String)
+    func addScreenFinished(data:Int)
 }
 
 class FinishViewController: ViewController {
     @IBOutlet weak var FinishTextField: UITextField!
     weak var delegate: AddScreenDelegate? = nil
-
+    //var Maximal = Global.Finish
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,11 +37,16 @@ class FinishViewController: ViewController {
     }
 
     @IBAction func SaveButton(_ sender: Any) {
+        let max = NSString(string:FinishTextField.text!).integerValue
+        print(max)
+        Global.Finish = max
+        delegate?.addScreenFinished(data: max)
 //        if delegate != nil{
 //            if FinishTextField.text != nil{
-//                let data = FinishTextField.text
-//                delegate?.addScreenFinished(data: data!)
-//                navigationController?.popViewController(animated: true)
+//                //let data = FinishTextField.text
+//                delegate?.addScreenFinished(data: number!)
+        print(Global.Finish)
+                navigationController?.popViewController(animated: true)
 //            }
 //        }
     }
