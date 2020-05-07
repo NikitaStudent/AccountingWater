@@ -1,6 +1,6 @@
 # **AccountingWater**
     
-![Banner](images/MainScreen(iPhone11ProMax).png)
+![Banner](./images/MainScreen(iPhone11ProMax).png)
  
 Данный проект представляет собой iOS-приложение для учета выпитой воды
 
