@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CC57C7A1-3241-4376-841A-A8673FEF4FFC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42EA3CF9-E571-402D-AA73-2C7218BFDE69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountingWater/Xib/FinishViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "FinishViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "42EA3CF9-E571-402D-AA73-2C7218BFDE69 - 205251d56de0554c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccountingWater.FinishViewController.Maximal.getter : Swift.Int"
+                  moduleName = "AccountingWater"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Xib/FinishViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "42EA3CF9-E571-402D-AA73-2C7218BFDE69 - bad9604372419950"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccountingWater.FinishViewController.Maximal.setter : Swift.Int"
+                  moduleName = "AccountingWater"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Xib/FinishViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "42EA3CF9-E571-402D-AA73-2C7218BFDE69 - 590f1bbfcb9fa84f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccountingWater.FinishViewController.Maximal.modify : Swift.Int"
+                  moduleName = "AccountingWater"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Xib/FinishViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "42EA3CF9-E571-402D-AA73-2C7218BFDE69 - 3ce195bd59c46b27"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccountingWater.FinishViewController.Maximal.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AccountingWater"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Xib/FinishViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "42EA3CF9-E571-402D-AA73-2C7218BFDE69 - 6923b099168867e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccountingWater.FinishViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; AccountingWater.FinishViewController"
+                  moduleName = "AccountingWater"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Xib/FinishViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "42EA3CF9-E571-402D-AA73-2C7218BFDE69 - 8db45b9cc58e7850"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccountingWater.FinishViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;AccountingWater.FinishViewController&gt;"
+                  moduleName = "AccountingWater"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Xib/FinishViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "376">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E1950B6-1A8A-4C4F-8104-DF000DD0D3B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountingWater/Data/DataModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "GlobalState"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "5E1950B6-1A8A-4C4F-8104-DF000DD0D3B2 - 75bd1849f4a03c37"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_C8557E6C48994F1C59D70014D7B0F7CE_func0"
+                  moduleName = "AccountingWater"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Data/DataModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "5E1950B6-1A8A-4C4F-8104-DF000DD0D3B2 - b5ec6c64f5d09a73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AccountingWater.Global.Finish.unsafeMutableAddressor : Swift.Int"
+                  moduleName = "AccountingWater"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Data/DataModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6F6EF98-4863-4D35-9B62-E43CC4E419BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountingWater/Xib/FinishViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "SaveButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "752ADE21-4CA8-4474-A520-89B3ADB3CF6B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountingWater/Xib/FinishViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "SaveButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B36F8ABA-2B0D-4B03-A1FF-B3A0F3BDFB63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountingWater/Xib/FinishViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "SaveButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5EF7425-874F-4D32-9B55-B5486149E048"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AccountingWater/Xib/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "CoffeeButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
