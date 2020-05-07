@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FinishViewController" customModule="AccountingWater" customModuleProvider="target">
             <connections>
-                <outlet property="FinishTextField" destination="xzX-23-mcF" id="gTJ-Qh-cpk"/>
+                <outlet property="finishTextField" destination="xzX-23-mcF" id="gTJ-Qh-cpk"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -31,7 +31,7 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                     <connections>
-                        <action selector="SaveButton:" destination="-1" eventType="touchUpInside" id="r3u-mb-8B4"/>
+                        <action selector="saveButton:" destination="-1" eventType="touchUpInside" id="BgV-uM-cdH"/>
                     </connections>
                 </button>
                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input daily norm" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xzX-23-mcF">
@@ -49,7 +49,7 @@
                     </userDefinedRuntimeAttributes>
                 </textField>
             </subviews>
-            <color key="backgroundColor" red="0.68400055912347546" green="1" blue="0.7001485352944975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.68235294117647061" green="1" blue="0.70196078431372544" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="xzX-23-mcF" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="LfX-cX-uZO"/>
                 <constraint firstItem="2yb-EH-Q3y" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="OwO-bH-1nP"/>
@@ -59,7 +59,7 @@
                 <constraint firstItem="xzX-23-mcF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="100" id="p07-OW-3hr"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+            <point key="canvasLocation" x="122" y="147"/>
         </view>
     </objects>
 </document>

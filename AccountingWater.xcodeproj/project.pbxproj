@@ -78,7 +78,7 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		A751CB7F2459AFFC00E272D7 /* Xib */ = {
+		A751CB7F2459AFFC00E272D7 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				A745C345245C471A00C788B7 /* MainViewController.swift */,
@@ -88,7 +88,7 @@
 				A78BF3E0245D01A4007AB249 /* CustomViewController.swift */,
 				A78BF3E1245D01A4007AB249 /* CustomViewController.xib */,
 			);
-			path = Xib;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		A78D5E32245CE7F40041F762 /* Storyboard */ = {
@@ -123,7 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				A736F79A2462B6A100AC20FE /* Data */,
-				A751CB7F2459AFFC00E272D7 /* Xib */,
+				A751CB7F2459AFFC00E272D7 /* Screens */,
 				A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */,
 				A78D5E32245CE7F40041F762 /* Storyboard */,
 				A7DE8B8E2444BE1E0010B5A1 /* Info.plist */,

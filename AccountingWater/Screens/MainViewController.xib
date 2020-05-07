@@ -10,10 +10,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="AccountingWater" customModuleProvider="target">
             <connections>
-                <outlet property="FinishLabel" destination="Is2-oP-KNi" id="0xi-ej-mI1"/>
-                <outlet property="StartLabel" destination="mPU-Dd-UYc" id="iPY-k0-E4Y"/>
-                <outlet property="ViewForButton" destination="bgn-QO-UQf" id="cUN-fT-xpg"/>
+                <outlet property="finishLabel" destination="Is2-oP-KNi" id="7Y5-cS-0EO"/>
                 <outlet property="progressView" destination="MiT-wu-VGP" id="5sY-DI-l1E"/>
+                <outlet property="startLabel" destination="mPU-Dd-UYc" id="hTx-sU-Phu"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -57,9 +56,9 @@
                                         <constraint firstAttribute="height" constant="55" id="o3R-Mi-7Yu"/>
                                         <constraint firstAttribute="width" constant="55" id="z5b-Qu-CCf"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Coffee"/>
+                                    <state key="normal" image="Coffee"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="f1V-DP-aMq"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="uqP-be-imM"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXh-JT-WFD">
@@ -96,9 +95,9 @@
                                         <constraint firstAttribute="width" constant="55" id="CUv-CU-6XR"/>
                                         <constraint firstAttribute="height" constant="55" id="euR-oN-uWq"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Cola"/>
+                                    <state key="normal" image="Cola"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="7jZ-zk-roD"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="6Wf-La-fT5"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jhd-tJ-XJr">
@@ -137,9 +136,9 @@
                                         <constraint firstAttribute="height" constant="55" id="nBZ-Nv-Q7Y"/>
                                         <constraint firstAttribute="width" constant="55" id="opZ-jJ-X1z"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Coctail"/>
+                                    <state key="normal" image="Coctail"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="5WP-ft-9Le"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="Rjh-Oh-R5N"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZs-Ks-T77">
@@ -178,9 +177,9 @@
                                         <constraint firstAttribute="height" constant="55" id="RNm-H5-DSP"/>
                                         <constraint firstAttribute="width" constant="55" id="hFb-wU-ju3"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Juice"/>
+                                    <state key="normal" image="Juice"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="dTW-hO-GbE"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="X9i-7X-rh4"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3KD-QE-M2h">
@@ -219,9 +218,9 @@
                                         <constraint firstAttribute="width" constant="55" id="BMU-rA-qbe"/>
                                         <constraint firstAttribute="height" constant="55" id="hXO-wm-uCJ"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Tea"/>
+                                    <state key="normal" image="Tea"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="JC5-Hj-EHK"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="Bqi-cF-Q2b"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iYi-Yc-LUJ">
@@ -260,9 +259,9 @@
                                         <constraint firstAttribute="width" constant="55" id="b6J-ds-Gj9"/>
                                         <constraint firstAttribute="height" constant="55" id="bAO-Ya-TVY"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Wine"/>
+                                    <state key="normal" image="Wine"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="ZOk-Mx-rK1"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="PGq-Gb-sdz"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x5p-x0-hBC">
@@ -301,9 +300,9 @@
                                         <constraint firstAttribute="width" constant="55" id="Inl-2M-84w"/>
                                         <constraint firstAttribute="height" constant="55" id="PAv-Lm-aGK"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Water"/>
+                                    <state key="normal" image="Water"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="g2C-Yi-hIU"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="xgO-2E-VQW"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1E9-oR-9hU">
@@ -344,9 +343,9 @@
                                         <constraint firstAttribute="height" constant="55" id="SLs-j9-syS"/>
                                         <constraint firstAttribute="width" constant="55" id="czD-1w-su3"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Yogurt"/>
+                                    <state key="normal" image="Yogurt"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="21r-Wc-pGb"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="VTe-yO-RLc"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="250 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpa-uK-wXw">
@@ -387,9 +386,9 @@
                                         <constraint firstAttribute="width" constant="55" id="04d-hf-BJ2"/>
                                         <constraint firstAttribute="height" constant="55" id="Wpl-WV-enG"/>
                                     </constraints>
-                                    <state key="normal" title="Button" image="Milk"/>
+                                    <state key="normal" image="Milk"/>
                                     <connections>
-                                        <action selector="CoffeeButton:" destination="-1" eventType="touchUpInside" id="g6J-Fs-MgE"/>
+                                        <action selector="сoffeeButton:" destination="-1" eventType="touchUpInside" id="tvb-Kd-gTU"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50 ml" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdP-o9-k9o">
@@ -452,9 +451,12 @@
                         <constraint firstAttribute="height" constant="50" id="jrz-Xw-1lN"/>
                     </constraints>
                     <state key="normal" title="Button" image="addbutton"/>
+                    <connections>
+                        <action selector="addButton:" destination="-1" eventType="touchUpInside" id="yKh-aM-Jgd"/>
+                    </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="0.067748561499999999" green="0.88113397360000001" blue="0.48758721350000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" red="0.066666666666666666" green="0.88235294117647056" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="MiT-wu-VGP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" constant="35" id="3pf-B4-zMI"/>
                 <constraint firstItem="Is2-oP-KNi" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="ABb-45-EeR"/>

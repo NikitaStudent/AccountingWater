@@ -7,7 +7,8 @@
 //
 
 import Foundation
-struct Global {
-   static var Finish: Int = 3000
-   static var Start: Int = 0
+
+struct GlobalState {
+   static var finish: Int = 3000
+   static var start: Int = 0
 }
