@@ -1,6 +1,6 @@
 # **AccountingWater**
     
-
+![Banner](https://github.com/NikitaStudent/AccountingWater/blob/master/Images/MainScreen(iPhone11ProMax).png)
  
 Данный проект представляет собой iOS-приложение для учета выпитой воды
 
