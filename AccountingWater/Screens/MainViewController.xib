@@ -455,6 +455,17 @@
                         <action selector="addButton:" destination="-1" eventType="touchUpInside" id="yKh-aM-Jgd"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ABN-4X-65k">
+                    <rect key="frame" x="102" y="451" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Aa8-fZ-f9S"/>
+                        <constraint firstAttribute="width" constant="50" id="QbR-mu-AdH"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="notifications"/>
+                    <connections>
+                        <action selector="notifButton:" destination="-1" eventType="touchUpInside" id="3Ep-jS-qaU"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.066666666666666666" green="0.88235294117647056" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -466,13 +477,15 @@
                 <constraint firstItem="bgn-QO-UQf" firstAttribute="top" secondItem="MiT-wu-VGP" secondAttribute="bottom" constant="30" id="RfD-o4-a3K"/>
                 <constraint firstItem="MiT-wu-VGP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Sa1-LR-ctZ"/>
                 <constraint firstItem="iiM-Vr-KRe" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XbP-Pc-cee"/>
+                <constraint firstItem="iiM-Vr-KRe" firstAttribute="leading" secondItem="ABN-4X-65k" secondAttribute="trailing" constant="30" id="Y87-9j-a3J"/>
                 <constraint firstItem="MiT-wu-VGP" firstAttribute="top" secondItem="mPU-Dd-UYc" secondAttribute="bottom" constant="10" id="arE-RJ-WqE"/>
                 <constraint firstAttribute="trailingMargin" secondItem="MiT-wu-VGP" secondAttribute="trailing" constant="35" id="cdT-tX-9S0"/>
                 <constraint firstItem="mPU-Dd-UYc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="35" id="fsR-nd-8If"/>
+                <constraint firstItem="ABN-4X-65k" firstAttribute="top" secondItem="bgn-QO-UQf" secondAttribute="bottom" constant="30" id="gei-fE-x36"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Is2-oP-KNi" secondAttribute="trailing" constant="35" id="qGa-K0-rn3"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="136.875" y="145.77464788732394"/>
+            <point key="canvasLocation" x="136.23188405797103" y="145.3125"/>
         </view>
     </objects>
     <resources>
@@ -486,5 +499,6 @@
         <image name="Wine" width="256" height="256"/>
         <image name="Yogurt" width="128" height="128"/>
         <image name="addbutton" width="256" height="256"/>
+        <image name="notifications" width="256" height="256"/>
     </resources>
 </document>

@@ -16,6 +16,8 @@ class FinishViewController: UIViewController {
     @IBOutlet weak var finishTextField: UITextField!
     weak var delegate: AddScreenDelegate? = nil
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Daily norm"
@@ -38,8 +40,13 @@ class FinishViewController: UIViewController {
 
     @IBAction func saveButton(_ sender: Any) {
         let max = NSString(string:finishTextField.text!).integerValue
+        if max <= 4000{
         GlobalState.finish = max
         delegate?.addScreenFinished(data: max)
         navigationController?.popViewController(animated: true)
+    }
+    else{
+    
+    }
     }
 }

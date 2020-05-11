@@ -20,6 +20,21 @@ class CustomViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Custom"
+        let toolBar =  UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
+        toolBar.barStyle = .default
+        toolBar.sizeToFit()
+
+        // adding button "Done"
+        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(self.doneButtonTapped))
+        toolBar.items = [doneButton]
+        toolBar.isUserInteractionEnabled = true
+        startTextField.inputAccessoryView = toolBar
+    }
+    @objc func doneButtonTapped(){
+        view.endEditing(true)
+    }
+    @IBAction func CloseButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
     @IBAction func customButton(_ sender: Any) {
