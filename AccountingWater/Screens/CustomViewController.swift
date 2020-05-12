@@ -13,6 +13,7 @@ protocol CustomViewDelegate: class {
 }
 
 class CustomViewController: UIViewController {
+    
     @IBOutlet weak var startTextField: UITextField!
     
     weak var delegateStart: CustomViewDelegate? = nil
@@ -20,6 +21,8 @@ class CustomViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Custom"
+        
+        //Custom bar
         let toolBar =  UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
         toolBar.barStyle = .default
         toolBar.sizeToFit()
@@ -30,9 +33,11 @@ class CustomViewController: UIViewController {
         toolBar.isUserInteractionEnabled = true
         startTextField.inputAccessoryView = toolBar
     }
+    
     @objc func doneButtonTapped(){
         view.endEditing(true)
     }
+    
     @IBAction func CloseButton(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
@@ -48,5 +53,4 @@ class CustomViewController: UIViewController {
             print("Limit")
         }
     }
-    
 }
