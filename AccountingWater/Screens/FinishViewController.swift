@@ -18,7 +18,7 @@ class FinishViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Daily norm"
+        title = "Дневная норма"
         
         //Settings Button "Done" for keyboard
         let toolBar =  UIToolbar(frame: CGRect(x: 0, y: 0, width: view.frame.size.width, height: 35))
@@ -37,9 +37,14 @@ class FinishViewController: UIViewController {
     }
 
     @IBAction func saveButton(_ sender: Any) {
-        let max = NSString(string:finishTextField.text!).integerValue
-        GlobalState.finish = max
-        delegate?.addScreenFinished(data: max)
-        navigationController?.popViewController(animated: true)
+    let max = NSString(string:finishTextField.text!).integerValue
+        if max <= 4000{
+            GlobalState.finish = max
+            delegate?.addScreenFinished(data: max)
+            navigationController?.popViewController(animated: true)
+        }
+        else{
+    
+        }
     }
 }

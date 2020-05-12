@@ -7,8 +7,3 @@
 //
 
 import Foundation
-
-struct GlobalState {
-   static var finish: Int = 3000
-   static var start: Int = 0
-}

@@ -115,54 +115,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5E1950B6-1A8A-4C4F-8104-DF000DD0D3B2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AccountingWater/Data/DataModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "GlobalState"
-            landmarkType = "14">
-            <Locations>
-               <Location
-                  uuid = "5E1950B6-1A8A-4C4F-8104-DF000DD0D3B2 - 75bd1849f4a03c37"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "globalinit_33_C8557E6C48994F1C59D70014D7B0F7CE_func0"
-                  moduleName = "AccountingWater"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Data/DataModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "8">
-               </Location>
-               <Location
-                  uuid = "5E1950B6-1A8A-4C4F-8104-DF000DD0D3B2 - b5ec6c64f5d09a73"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "AccountingWater.Global.Finish.unsafeMutableAddressor : Swift.Int"
-                  moduleName = "AccountingWater"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/nikitakozhevnikov/Projects/AccountingWater/AccountingWater/Data/DataModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "11"
-                  endingLineNumber = "11"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C6F6EF98-4863-4D35-9B62-E43CC4E419BE"
             shouldBeEnabled = "No"
             ignoreCount = "0"

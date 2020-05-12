@@ -11,6 +11,8 @@
 		A740DCF12456348500CA1202 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A740DCF02456348500CA1202 /* Images.xcassets */; };
 		A745C347245C471A00C788B7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A745C345245C471A00C788B7 /* MainViewController.swift */; };
 		A745C348245C471A00C788B7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A745C346245C471A00C788B7 /* MainViewController.xib */; };
+		A7487953246A258A000A2D64 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7487951246A258A000A2D64 /* StatisticsViewController.swift */; };
+		A7487954246A258A000A2D64 /* StatisticsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7487952246A258A000A2D64 /* StatisticsViewController.xib */; };
 		A751CB822459B02700E272D7 /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A751CB802459B02700E272D7 /* FinishViewController.swift */; };
 		A751CB832459B02700E272D7 /* FinishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A751CB812459B02700E272D7 /* FinishViewController.xib */; };
 		A78BF3E2245D01A4007AB249 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3E0245D01A4007AB249 /* CustomViewController.swift */; };
@@ -37,6 +39,8 @@
 		A740DCF02456348500CA1202 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A745C345245C471A00C788B7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A745C346245C471A00C788B7 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		A7487951246A258A000A2D64 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		A7487952246A258A000A2D64 /* StatisticsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticsViewController.xib; sourceTree = "<group>"; };
 		A751CB802459B02700E272D7 /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
 		A751CB812459B02700E272D7 /* FinishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinishViewController.xib; sourceTree = "<group>"; };
 		A78BF3E0245D01A4007AB249 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 			children = (
 				A745C345245C471A00C788B7 /* MainViewController.swift */,
 				A745C346245C471A00C788B7 /* MainViewController.xib */,
+				A7487951246A258A000A2D64 /* StatisticsViewController.swift */,
+				A7487952246A258A000A2D64 /* StatisticsViewController.xib */,
 				A751CB802459B02700E272D7 /* FinishViewController.swift */,
 				A751CB812459B02700E272D7 /* FinishViewController.xib */,
 				A78BF3E0245D01A4007AB249 /* CustomViewController.swift */,
@@ -223,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7DE8B8D2444BE1E0010B5A1 /* LaunchScreen.storyboard in Resources */,
+				A7487954246A258A000A2D64 /* StatisticsViewController.xib in Resources */,
 				A78BF3E3245D01A4007AB249 /* CustomViewController.xib in Resources */,
 				A740DCF12456348500CA1202 /* Images.xcassets in Resources */,
 				A745C348245C471A00C788B7 /* MainViewController.xib in Resources */,
@@ -250,6 +257,7 @@
 				A78BF3E2245D01A4007AB249 /* CustomViewController.swift in Sources */,
 				A7DE8B812444BE1D0010B5A1 /* AppDelegate.swift in Sources */,
 				A745C347245C471A00C788B7 /* MainViewController.swift in Sources */,
+				A7487953246A258A000A2D64 /* StatisticsViewController.swift in Sources */,
 				A736F79C2462B70400AC20FE /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
