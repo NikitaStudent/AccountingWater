@@ -14,6 +14,7 @@ protocol AddScreenDelegate: class {
 
 class FinishViewController: UIViewController {
     @IBOutlet weak var finishTextField: UITextField!
+    
     weak var delegate: AddScreenDelegate? = nil
     
     override func viewDidLoad() {
@@ -35,16 +36,27 @@ class FinishViewController: UIViewController {
     @objc func doneButtonTapped(){
         view.endEditing(true)
     }
+    
+    let alert = UIAlertController(title: "", message: "Превышен лимит", preferredStyle: .alert)
+    let alert1 = UIAlertController(title: "", message: "Слишком маленький лимит", preferredStyle: .alert)
+    let okAction = UIAlertAction(title: " ОК", style: .default)
 
     @IBAction func saveButton(_ sender: Any) {
     let max = NSString(string:finishTextField.text!).integerValue
-        if max <= 4000{
+        if max <= 5000{
+            if max >= 500{
             GlobalState.finish = max
             delegate?.addScreenFinished(data: max)
             navigationController?.popViewController(animated: true)
+            }
+            else{
+                alert1.addAction(okAction)
+                present(alert1, animated: true, completion: nil)
+            }
         }
         else{
-    
+            alert.addAction(okAction)
+            present(alert, animated: true, completion: nil)
         }
     }
 }
