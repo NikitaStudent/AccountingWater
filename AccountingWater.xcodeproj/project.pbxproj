@@ -17,6 +17,8 @@
 		A751CB832459B02700E272D7 /* FinishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A751CB812459B02700E272D7 /* FinishViewController.xib */; };
 		A78BF3E2245D01A4007AB249 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3E0245D01A4007AB249 /* CustomViewController.swift */; };
 		A78BF3E3245D01A4007AB249 /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A78BF3E1245D01A4007AB249 /* CustomViewController.xib */; };
+		A7AB131024752F0000657D94 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AB130E24752F0000657D94 /* SettingsViewController.swift */; };
+		A7AB131124752F0000657D94 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7AB130F24752F0000657D94 /* SettingsViewController.xib */; };
 		A7DE8B812444BE1D0010B5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */; };
 		A7DE8B852444BE1D0010B5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE8B842444BE1D0010B5A1 /* ViewController.swift */; };
 		A7DE8B882444BE1D0010B5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE8B862444BE1D0010B5A1 /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		A751CB812459B02700E272D7 /* FinishViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinishViewController.xib; sourceTree = "<group>"; };
 		A78BF3E0245D01A4007AB249 /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		A78BF3E1245D01A4007AB249 /* CustomViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
+		A7AB130E24752F0000657D94 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A7AB130F24752F0000657D94 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		A7DE8B7D2444BE1D0010B5A1 /* AccountingWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountingWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DE8B802444BE1D0010B5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7DE8B842444BE1D0010B5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,10 +91,12 @@
 			children = (
 				A745C345245C471A00C788B7 /* MainViewController.swift */,
 				A745C346245C471A00C788B7 /* MainViewController.xib */,
-				A7487951246A258A000A2D64 /* StatisticsViewController.swift */,
-				A7487952246A258A000A2D64 /* StatisticsViewController.xib */,
+				A7AB130E24752F0000657D94 /* SettingsViewController.swift */,
+				A7AB130F24752F0000657D94 /* SettingsViewController.xib */,
 				A751CB802459B02700E272D7 /* FinishViewController.swift */,
 				A751CB812459B02700E272D7 /* FinishViewController.xib */,
+				A7487951246A258A000A2D64 /* StatisticsViewController.swift */,
+				A7487952246A258A000A2D64 /* StatisticsViewController.xib */,
 				A78BF3E0245D01A4007AB249 /* CustomViewController.swift */,
 				A78BF3E1245D01A4007AB249 /* CustomViewController.xib */,
 			);
@@ -231,6 +237,7 @@
 				A7DE8B8D2444BE1E0010B5A1 /* LaunchScreen.storyboard in Resources */,
 				A7487954246A258A000A2D64 /* StatisticsViewController.xib in Resources */,
 				A78BF3E3245D01A4007AB249 /* CustomViewController.xib in Resources */,
+				A7AB131124752F0000657D94 /* SettingsViewController.xib in Resources */,
 				A740DCF12456348500CA1202 /* Images.xcassets in Resources */,
 				A745C348245C471A00C788B7 /* MainViewController.xib in Resources */,
 				A751CB832459B02700E272D7 /* FinishViewController.xib in Resources */,
@@ -259,6 +266,7 @@
 				A745C347245C471A00C788B7 /* MainViewController.swift in Sources */,
 				A7487953246A258A000A2D64 /* StatisticsViewController.swift in Sources */,
 				A736F79C2462B70400AC20FE /* DataModel.swift in Sources */,
+				A7AB131024752F0000657D94 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

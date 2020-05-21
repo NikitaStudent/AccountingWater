@@ -36,27 +36,28 @@ class FinishViewController: UIViewController {
     @objc func doneButtonTapped(){
         view.endEditing(true)
     }
-    
-    let alert = UIAlertController(title: "", message: "Превышен лимит", preferredStyle: .alert)
-    let alert1 = UIAlertController(title: "", message: "Слишком маленький лимит", preferredStyle: .alert)
-    let okAction = UIAlertAction(title: " ОК", style: .default)
 
     @IBAction func saveButton(_ sender: Any) {
-    let max = NSString(string:finishTextField.text!).integerValue
-        if max <= 5000{
-            if max >= 500{
-            GlobalState.finish = max
-            delegate?.addScreenFinished(data: max)
+    let maximal = NSString(string:finishTextField.text!).integerValue
+        if maximal <= 5000{
+            if maximal >= 500{
+                GlobalState.finish = maximal
+            delegate?.addScreenFinished(data: maximal)
             navigationController?.popViewController(animated: true)
             }
             else{
-                alert1.addAction(okAction)
-                present(alert1, animated: true, completion: nil)
+                // create the alert
+                let alert = UIAlertController(title: "Лимит", message: "Маленькое значение", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+                
             }
         }
         else{
-            alert.addAction(okAction)
-            present(alert, animated: true, completion: nil)
+            // create the alert
+            let alert = UIAlertController(title: "Лимит", message: "Слишком большое значение", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
     }
 }

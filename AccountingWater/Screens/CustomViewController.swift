@@ -45,12 +45,14 @@ class CustomViewController: UIViewController {
     @IBAction func customButton(_ sender: Any) {
         if GlobalState.start <= GlobalState.finish {
             let startCustom = NSString(string:startTextField.text!).integerValue
-            GlobalState.start = startCustom
+            GlobalState.start += startCustom
             delegateStart?.customViewStart(startdata: startCustom)
             navigationController?.popViewController(animated: true)
         }
         else{
-            print("Limit")
+            let alert = UIAlertController(title: "Напоминание", message: "Вы превысили дневной лимит", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
         }
     }
 }

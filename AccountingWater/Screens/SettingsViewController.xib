@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController" customModule="AccountingWater" customModuleProvider="target">
+            <connections>
+                <outlet property="activityText" destination="MV9-cW-waN" id="CGM-eM-dZl"/>
+                <outlet property="segmentedControl" destination="di3-BJ-uZY" id="Ubj-QM-UL8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="weightText" destination="nFe-Lc-wIO" id="XL6-Hb-1bj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="di3-BJ-uZY">
+                    <rect key="frame" x="141.5" y="94" width="131" height="32"/>
+                    <segments>
+                        <segment title="Man"/>
+                        <segment title="Woman"/>
+                    </segments>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLc-pz-J7d">
+                    <rect key="frame" x="57" y="348" width="300" height="200"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nFe-Lc-wIO">
+                            <rect key="frame" x="50" y="30" width="200" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="Kmf-8r-hC3"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Activity of the day" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MV9-cW-waN">
+                            <rect key="frame" x="50" y="94" width="200" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="zQC-y0-T0s"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJq-vc-frY">
+                            <rect key="frame" x="133" y="158" width="34" height="30"/>
+                            <state key="normal" title="Save"/>
+                            <connections>
+                                <action selector="settingsButton:" destination="-1" eventType="touchUpInside" id="jiv-FE-sGl"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="nFe-Lc-wIO" firstAttribute="centerX" secondItem="XLc-pz-J7d" secondAttribute="centerX" id="L6c-8H-zuD"/>
+                        <constraint firstItem="QJq-vc-frY" firstAttribute="top" secondItem="MV9-cW-waN" secondAttribute="bottom" constant="30" id="O6B-4J-E1A"/>
+                        <constraint firstItem="nFe-Lc-wIO" firstAttribute="top" secondItem="XLc-pz-J7d" secondAttribute="top" constant="30" id="PlF-5h-9bq"/>
+                        <constraint firstAttribute="width" constant="300" id="Q8d-10-odv"/>
+                        <constraint firstAttribute="height" constant="200" id="bB1-ul-nTW"/>
+                        <constraint firstItem="QJq-vc-frY" firstAttribute="centerX" secondItem="XLc-pz-J7d" secondAttribute="centerX" id="lki-TZ-jFL"/>
+                        <constraint firstItem="MV9-cW-waN" firstAttribute="centerX" secondItem="XLc-pz-J7d" secondAttribute="centerX" id="tAo-k0-2JZ"/>
+                        <constraint firstItem="MV9-cW-waN" firstAttribute="top" secondItem="nFe-Lc-wIO" secondAttribute="bottom" constant="30" id="xT2-MM-pKc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="XLc-pz-J7d" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5GB-0W-x6B"/>
+                <constraint firstItem="XLc-pz-J7d" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="8Y9-7E-UNB"/>
+                <constraint firstItem="di3-BJ-uZY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Pdg-YJ-uAz"/>
+                <constraint firstItem="di3-BJ-uZY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="50" id="hIZ-bN-r81"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="153"/>
+        </view>
+    </objects>
+</document>
